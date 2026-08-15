@@ -2,9 +2,8 @@ import pandas as pd
 import numpy as np
 
 
-students = pd.read_csv("students_dirty_dataset.csv")
-sales = pd.read_csv("sales_dirty_dataset.csv")
-
+students = pd.read_csv("raw data/students_dirty_dataset.csv")
+sales = pd.read_csv("raw data/sales_dirty_dataset.csv")
 
 print("STUDENT DATA")
 
@@ -580,18 +579,18 @@ print(
 
 
 students_clean.to_csv(
-    "students_cleaned_dataset.csv",
+    "cleaned_data/students_cleaned_dataset.csv",
     index=False
 )
 
 
 sales_clean.to_csv(
-    "sales_cleaned_dataset.csv",
+    "cleaned_data/sales_cleaned_dataset.csv",
     index=False
 )
 
 with pd.ExcelWriter(
-    "Python_Lab_Cleaned_Datasets.xlsx",
+    "cleaned_data/Python_Lab_Cleaned_Datasets.xlsx",
     engine="openpyxl"
 ) as writer:
 

@@ -1,0 +1,15 @@
+OrderID,Month,Region,Product,Quantity,UnitPrice,TotalSales
+2001,Jan,North,Laptop,2.0,700.0,1400.0
+2002,Jan,South,Mouse,15.0,15.0,225.0
+2003,Feb,North,Keyboard,10.0,25.0,250.0
+2004,Feb,East,Laptop,7.0,710.0,4970.0
+2005,Mar,West,Monitor,4.0,180.0,720.0
+2006,Mar,South,Mouse,18.0,15.0,270.0
+2007,Apr,East,Laptop,7.0,705.0,4935.0
+2008,Apr,North,Keyboard,8.0,182.5,1460.0
+2009,May,West,Monitor,6.0,185.0,1110.0
+2010,May,South,Laptop,2.0,720.0,1440.0
+2011,Jun,East,Mouse,20.0,16.0,320.0
+2012,Jun,North,Monitor,3.0,190.0,570.0
+2013,Jul,South,Laptop,4.0,182.5,730.0
+2015,Unknown,East,,15.0,15.0,225.0
